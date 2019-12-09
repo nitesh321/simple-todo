@@ -27,8 +27,8 @@ Things you may want to cover:
 Basic command in ruby on rails
 * rails g scaffold todo_list title:string description: text
 
-***************************------------------------------*********************************
-* generate a model  -> rails generate model title:string description:string done:boolean
+* **************************------------------------------*********************************
+* generate a model  -> rails generate model modelName title:string description:string done:boolean
 
 * generate a controller =>  rails generate controller Todos index create update destroy
 
@@ -37,3 +37,5 @@ Basic command in ruby on rails
 * run a server  => rails server
 
 * run a seeder  => rails db:seed
+
+* to see all routes =>  rails routes
